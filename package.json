@@ -1,0 +1,37 @@
+{
+  "name": "node-learn",
+  "version": "1.0.0",
+  "description": "Learn Node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "koa": "node --inspect-brk ./koa.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facebook201/Node-Learn.git"
+  },
+  "author": "sy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/facebook201/Node-Learn/issues"
+  },
+  "homepage": "https://github.com/facebook201/Node-Learn#readme",
+  "dependencies": {
+    "@types/node": "^16.7.4",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "koa": "^2.13.1",
+    "koa-compose": "^4.1.0",
+    "koa-router": "^10.1.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  },
+  "devDependencies": {
+    "debug": "^4.3.2"
+  }
+}
